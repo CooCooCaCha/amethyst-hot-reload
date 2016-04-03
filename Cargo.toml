@@ -1,0 +1,8 @@
+[package]
+name = "amethyst-hot-reload"
+version = "0.1.0"
+authors = ["CooCooCaCha <wrjstuff@gmail.com>"]
+
+[dependencies]
+libloading = "0.2.1"
+notify = "2.5.5"

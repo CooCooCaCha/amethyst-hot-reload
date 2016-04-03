@@ -1,0 +1,13 @@
+[package]
+name = "game"
+version = "0.1.0"
+
+[dependencies]
+libc = "0.2.9"
+amethyst = "*"
+amethyst_ecs = "*"
+amethyst_renderer = "*"
+
+[lib]
+name = "game"
+crate_type = ["dylib"]
